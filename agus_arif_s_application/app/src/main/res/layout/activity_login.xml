@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="loginVM" type="com.agusarifsapplication.app.modules.login.data.viewmodel.LoginVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearLogin"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtSelamatDatang"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_140pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{loginVM.loginModel.txtSelamatDatang}"
+            style="@style/txtNunitobold22" tools:text="@string/lbl_selamat_datang"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtSelamatdatangOne"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:text="@{loginVM.loginModel.txtSelamatdatangOne}"
+            style="@style/txtNunitoregular14" tools:text="@string/msg_selamat_datang"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerLogin"
+            itemSpace="@{@dimen/_17pxh}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="2"
+            tools:listitem="@layout/row_login" />
+        <LinearLayout android:gravity="center_vertical"
+            android:id="@+id/linearRowbelumpunyaaku"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtBelumpunyaaku"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.69" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{loginVM.loginModel.txtBelumpunyaaku}"
+                style="@style/txtNunitoregular14_1" tools:text="@string/msg_belum_punya_aku"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtRegister"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginStart="@dimen/_6pxh"
+                android:layout_weight="0.31" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{loginVM.loginModel.txtRegister}"
+                style="@style/txtNunitobold14" tools:text="@string/lbl_register"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnMasuk"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_301pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_10pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_10pxv" android:singleLine="true"
+            android:text="@string/lbl_masuk" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_masuk"/>
+    </LinearLayout>
+</layout>

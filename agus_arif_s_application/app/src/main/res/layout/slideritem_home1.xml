@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="imageSliderSlider8bc79ecdd9e8ddeightModel" type="com.agusarifsapplication.app.modules.home.data.model.ImageSliderSlider8bc79ecdd9e8ddeightModel"/>
+    </data>
+    <ImageView android:id="@+id/image8bc79ecdd9e8ddEight"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" android:scaleType="fitXY"
+        cornerRadius="@{@dimen/_10pxh}"
+        imageUrl="@{imageSliderSlider8bc79ecdd9e8ddeightModel.image8bc79ecdd9e8ddEight}"
+        placeHolder="@{@drawable/image_not_found}"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_8bc79ecdd9e8dd8"/>
+</layout>

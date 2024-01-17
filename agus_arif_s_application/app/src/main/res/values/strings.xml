@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">agus_arif_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_selamat_datang">Selamat Datang</string>
+  <string name="lbl_rute">Rute</string>
+  <string name="msg_metode_pembayar">Metode Pembayaran</string>
+  <string name="msg_nama_akun_diy">Nama akun : DIYAS FRANS ADHIRA</string>
+  <string name="lbl_points">Points</string>
+  <string name="lbl_62">+62</string>
+  <string name="msg_lihat_selengkap">Lihat Selengkapnya</string>
+  <string name="lbl_voucher">Voucher</string>
+  <string name="lbl_transfer_bank">Transfer Bank</string>
+  <string name="lbl_home">Home</string>
+  <string name="lbl_masuk">Masuk</string>
+  <string name="msg_silhkan_isi_kol">Silhkan Isi Kolom di atas untuk melakukan
+Pemesanan BBM</string>
+  <string name="msg_3827_1784_9023">3827 1784 9023 0231</string>
+  <string name="lbl_kategori">Kategori</string>
+  <string name="lbl_spbu_341542">SPBU 341542</string>
+  <string name="lbl_ganti">Ganti</string>
+  <string name="lbl_map">Map</string>
+  <string name="lbl_pesan">Pesan</string>
+  <string name="lbl_3_l">3 l</string>
+  <string name="lbl_no_telepon">No. Telepon</string>
+  <string name="msg_jln_h_juanda">Jln. H. Juanda Cimanggis, Depok</string>
+  <string name="lbl_profile">Profile</string>
+  <string name="msg_ikuti_intruksi">Ikuti Intruksi pembayaran di bawah ini</string>
+  <string name="lbl">**********</string>
+  <string name="lbl_register">Register</string>
+  <string name="msg_nomor_akun_virt">Nomor Akun Virtual BCA</string>
+  <string name="msg_silhkan_melakuk">Silhkan Melakukan Scan Pada Mesin
+Pemesanan BBM</string>
+  <string name="msg_delivery_servic">Delivery Service</string>
+  <string name="lbl_pemesanan">Pemesanan</string>
+  <string name="msg_barcode_pemesan">Barcode Pemesanan</string>
+  <string name="lbl_subsidi_tepat">Subsidi Tepat</string>
+  <string name="lbl_kios_matic">Kios Matic</string>
+  <string name="lbl_pembayaran">Pembayaran</string>
+  <string name="lbl_asuransi">Asuransi</string>
+  <string name="msg_m_bca_bca_mobi">m-BCA (BCA MOBILE)</string>
+  <string name="lbl_2_km">(2 km)</string>
+  <string name="lbl_menu_pemesanan">Menu Pemesanan</string>
+  <string name="msg_m_bca_stk_si">m-BCA (STK - SIM Tool Kit)</string>
+  <string name="lbl_salin_kode">SALIN KODE</string>
+  <string name="lbl_823_4938_9102">823 4938 9102</string>
+  <string name="lbl_pertalite">Pertalite</string>
+  <string name="msg_belum_punya_aku">Belum punya akun?</string>
+  <string name="lbl_password">Password</string>
+  <string name="lbl_event_promo">Event &amp; Promo</string>
+  <string name="lbl_atm_bca">ATM BCA</string>
+  <string name="msg_selamat_datang">Selamat datang, sebelum login pastikan kamu memasukan akun dengan benar.</string>
+  <string name="lbl_kartu">Kartu</string>
+  <string name="lbl_jumlah_liter">Jumlah Liter</string>
+  <string name="lbl_outlet_terdekat">Outlet Terdekat</string>
+  <string name="lbl_klik_bca">KLIK BCA</string>
+  <string name="lbl_lainnya">Lainnya</string>
+</resources>

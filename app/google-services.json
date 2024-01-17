@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1018582945025",
+    "project_id": "mypertamina-ad0e5",
+    "storage_bucket": "mypertamina-ad0e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018582945025:android:77cbef405bcde414a51f00",
+        "android_client_info": {
+          "package_name": "com.example.bpr.mypertamina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjuTJPY7VyJqAC0SUvCoStRt0ccCpH68g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

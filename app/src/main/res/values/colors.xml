@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#1872B3</color>
+
+
+    <color name="_bg__home_color">#FFFFFF</color>
+    <color name="rectangle_157_color">#1872B3</color>
+    <color name="subsidi_tepat_color">#333333</color>
+    <color name="event___promo_color">#303030</color>
+    <color name="_bg__group_52_ek1_color">#000000</color>
+    <color name="ellipse_1_color">#E32935</color>
+    <color name="ellipse_3_color">#D9D9D9</color>
+    <color name="my_point_color">#959595</color>
+</resources>

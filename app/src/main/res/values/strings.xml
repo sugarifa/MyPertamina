@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyPertamina</string>
+    <string name="select">Select Item</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="subsidi_tepat_string">Subsidi Tepat</string>
+    <string name="voucher_string">Voucher</string>
+    <string name="kios_matic_string">Kios Matic</string>
+    <string name="asuransi_string">Asuransi</string>
+    <string name="lainnya_string">Lainnya</string>
+    <string name="delivery_service_string">Delivery Service</string>
+    <string name="pemesanan_string">Pemesanan</string>
+    <string name="pembayaran_string">Pembayaran</string>
+    <string name="event___promo_string">Event &amp; Promo</string>
+    <string name="saldo_string">Saldo</string>
+    <string name="rp__42_000_string">Rp. 42.000</string>
+    <string name="_201_points_string">201 Points</string>
+    <string name="my_point_string">My Point</string>
+    <string name="_2_9_liter_string">2.9 Liter</string>
+    <string name="total_pengisian_string">Total Pengisian</string>
+    <string name="diyas_frans_adhira_string">Diyas Frans Adhira</string>
+    <string name="top_up_string">Top up</string>
+    <string name="home_string">Home</string>
+    <string name="kartu_string">Kartu</string>
+    <string name="map_string">Map</string>
+    <string name="points_string">Points</string>
+    <string name="profile_string">Profile</string>
+    <string name="MyPertamina" />
+    <string name="Mypertamina">MyPertamina</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="menuPemesananVM" type="com.agusarifsapplication.app.modules.menupemesanan.data.viewmodel.MenuPemesananVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearMenuPemesanan"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnrectangle171"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleblue_800">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <FrameLayout android:id="@+id/frameStackrectangle171"
+                    android:layout_height="@dimen/_66pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageRectangle171"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_66pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="@dimen/_105pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_rectangle171}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle171"/>
+                    <ImageView android:id="@+id/imageAsfOne"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="@dimen/_143pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_asf1"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_asf1"/>
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMenuPemesanan"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_18pxv"
+                android:layout_marginEnd="@dimen/_104pxh"
+                android:layout_marginStart="@dimen/_105pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{menuPemesananVM.menuPemesananModel.txtMenuPemesanan}"
+                style="@style/txtNunitobold22_1" tools:text="@string/lbl_menu_pemesanan"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameStackarrowright"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_50pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_36pxv" android:layout_width="@dimen/_350pxh">
+            <ImageView android:id="@+id/imageArrowright"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_8pxh"
+                android:layout_marginBottom="@dimen/_18pxv"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="@dimen/_6pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrowright_blue_800"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright_blue_800"/>
+            <FrameLayout android:id="@+id/frameStackpertalite"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_350pxh">
+                <FrameLayout android:id="@+id/frameStacksubtract"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_43pxv"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_350pxh" style="@style/groupStylewhite_A700_63cornerRadius">
+                    <ImageView android:id="@+id/imageSubtract"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_43pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_subtract"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_subtract"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPertalite"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_11pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{menuPemesananVM.menuPemesananModel.txtPertalite}"
+                    style="@style/txtNunitoregular14_1" tools:text="@string/lbl_pertalite"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtKategori"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{menuPemesananVM.menuPemesananModel.txtKategori}"
+                    style="@style/txtNunitobold12" tools:text="@string/lbl_kategori"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameStackmeasurement"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_51pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_23pxv" android:layout_width="@dimen/_350pxh">
+            <FrameLayout android:id="@+id/frameStacksubtractOne"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_43pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_350pxh" style="@style/groupStylewhite_A700_63cornerRadius">
+                <ImageView android:id="@+id/imageSubtractOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_43pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_subtract"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_subtract"/>
+            </FrameLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMeasurement"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{menuPemesananVM.menuPemesananModel.txtMeasurement}"
+                style="@style/txtNunitoregular14_1" tools:text="@string/lbl_3_l"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtJumlahLiter"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_11pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{menuPemesananVM.menuPemesananModel.txtJumlahLiter}"
+                style="@style/txtNunitobold12" tools:text="@string/lbl_jumlah_liter"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameStackarrowrightOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_50pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_31pxv" android:layout_width="@dimen/_350pxh">
+            <ImageView android:id="@+id/imageArrowrightOne"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_8pxh"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="@dimen/_6pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrowright_blue_800"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright_blue_800"/>
+            <FrameLayout android:id="@+id/frameStacktransferbank"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_350pxh">
+                <FrameLayout android:id="@+id/frameStacksubtractTwo"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_43pxv"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_350pxh" style="@style/groupStylewhite_A700_63cornerRadius">
+                    <ImageView android:id="@+id/imageSubtractTwo"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_43pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_subtract"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_subtract"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTransferBank"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_11pxh"
+                    android:layout_marginVertical="@dimen/_11pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{menuPemesananVM.menuPemesananModel.txtTransferBank}"
+                    style="@style/txtNunitoregular14_1" tools:text="@string/lbl_transfer_bank"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtMetodePembayar"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{menuPemesananVM.menuPemesananModel.txtMetodePembayar}"
+                    style="@style/txtNunitobold12" tools:text="@string/msg_metode_pembayar"/>
+            </FrameLayout>
+        </FrameLayout>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtSilhkanIsiKol"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_90pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:text="@{menuPemesananVM.menuPemesananModel.txtSilhkanIsiKol}"
+            style="@style/txtNunitoregular14" tools:text="@string/msg_silhkan_isi_kol"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnPesan"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_139pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_10pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_10pxv" android:singleLine="true"
+            android:text="@string/lbl_pesan" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_pesan"/>
+    </LinearLayout>
+</layout>
